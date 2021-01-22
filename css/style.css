@@ -18,9 +18,6 @@ body {
   font-weight: var(--font-weight);
   font-size: var(--font-size);
   letter-spacing: var(--letter-spacing);
-
-  margin: 0;
-  padding: 0;
 }
 
 a {
