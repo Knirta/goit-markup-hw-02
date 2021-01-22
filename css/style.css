@@ -5,15 +5,19 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
+  --main-font: 'Roboto', sans-serif;
+  --font-size: 14px;
+  --letter-spacing: 0.03em;
+  --font-weight: 400;
 }
 
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  letter-spacing: var(--letter-spacing);
 
   margin: 0;
   padding: 0;
