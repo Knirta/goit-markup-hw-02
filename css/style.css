@@ -104,6 +104,10 @@ header .link {
 
 /* advantages */
 
+.hidden {
+  visibility: hidden;
+}
+
 .advantages .title {
   color: var(--title-text-color);
   font-weight: 700;
